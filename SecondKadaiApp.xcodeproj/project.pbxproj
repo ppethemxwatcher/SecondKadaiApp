@@ -12,6 +12,7 @@
 		EC1748281C8421BA0044612B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1748261C8421BA0044612B /* Main.storyboard */; };
 		EC17482A1C8421BB0044612B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1748291C8421BB0044612B /* Assets.xcassets */; };
 		EC17482D1C8421BB0044612B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC17482B1C8421BB0044612B /* LaunchScreen.storyboard */; };
+		EC45D2CE1C8BB6C400451B7B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45D2CD1C8BB6C400451B7B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC1748291C8421BB0044612B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC17482C1C8421BB0044612B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC17482E1C8421BB0044612B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC45D2CD1C8BB6C400451B7B /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EC1748221C8421BA0044612B /* AppDelegate.swift */,
 				EC1748241C8421BA0044612B /* ViewController.swift */,
 				EC1748261C8421BA0044612B /* Main.storyboard */,
+				EC45D2CD1C8BB6C400451B7B /* ResultViewController.swift */,
 				EC1748291C8421BB0044612B /* Assets.xcassets */,
 				EC17482B1C8421BB0044612B /* LaunchScreen.storyboard */,
 				EC17482E1C8421BB0044612B /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				EC1748251C8421BA0044612B /* ViewController.swift in Sources */,
 				EC1748231C8421BA0044612B /* AppDelegate.swift in Sources */,
+				EC45D2CE1C8BB6C400451B7B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				EC1748331C8421BB0044612B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
